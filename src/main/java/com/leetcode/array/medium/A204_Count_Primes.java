@@ -1,6 +1,6 @@
 package com.leetcode.array.medium;
 
-public class Count_Primes_204 {
+public class A204_Count_Primes {
     /*
  - Using seive od ertosthenis
  - Pick a number check its prime and do multiple of it, mark as composite
@@ -8,7 +8,7 @@ public class Count_Primes_204 {
  - End of prime number check till square root of i
 */
     public static void main(String[] args) {
-        Count_Primes_204 obj = new Count_Primes_204();
+        A204_Count_Primes obj = new A204_Count_Primes();
         int n=2;
         System.out.println("Result is "+obj.countPrimes(n));
     }

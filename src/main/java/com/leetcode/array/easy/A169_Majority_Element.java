@@ -1,8 +1,8 @@
 package com.leetcode.array.easy;
 
-public class Majority_Element_169 {
+public class A169_Majority_Element {
     public static void main(String[] args) {
-        Majority_Element_169 obj = new Majority_Element_169();
+        A169_Majority_Element obj = new A169_Majority_Element();
         int[] arr = new int[]{2,2,1,1,1,2,2};
         System.out.println(obj.majorityElement(arr));
     }

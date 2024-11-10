@@ -2,9 +2,9 @@ package com.leetcode.array.easy;
 
 import java.util.Arrays;
 
-public class Running_Sum_of_1d_Array_1480 {
+public class A1480_Running_Sum_of_1d_Array {
     public static void main(String[] args) {
-        Running_Sum_of_1d_Array_1480 obj = new Running_Sum_of_1d_Array_1480();
+        A1480_Running_Sum_of_1d_Array obj = new A1480_Running_Sum_of_1d_Array();
         int[] arr = new int[]{3,1,2,10,1};
         System.out.println(Arrays.toString(obj.runningSum(arr)));
     }

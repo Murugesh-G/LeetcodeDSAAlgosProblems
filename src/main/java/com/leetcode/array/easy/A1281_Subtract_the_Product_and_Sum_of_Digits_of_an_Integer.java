@@ -1,8 +1,8 @@
 package com.leetcode.array.easy;
 
-public class Subtract_the_Product_and_Sum_of_Digits_of_an_Integer_1281 {
+public class A1281_Subtract_the_Product_and_Sum_of_Digits_of_an_Integer {
     public static void main(String[] args) {
-        Subtract_the_Product_and_Sum_of_Digits_of_an_Integer_1281 obj = new Subtract_the_Product_and_Sum_of_Digits_of_an_Integer_1281();
+        A1281_Subtract_the_Product_and_Sum_of_Digits_of_an_Integer obj = new A1281_Subtract_the_Product_and_Sum_of_Digits_of_an_Integer();
         System.out.println(obj.subtractProductAndSum(1));
     }
 

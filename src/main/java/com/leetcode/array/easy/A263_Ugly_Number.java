@@ -1,8 +1,8 @@
 package com.leetcode.array.easy;
 
-public class Ugly_Number_263 {
+public class A263_Ugly_Number {
     public static void main(String[] args) {
-        Ugly_Number_263 obj=new Ugly_Number_263();
+        A263_Ugly_Number obj=new A263_Ugly_Number();
         System.out.println(obj.isUgly(7));
     }
     public boolean isUgly(int n) {

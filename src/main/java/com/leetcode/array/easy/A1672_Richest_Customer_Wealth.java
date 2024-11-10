@@ -1,8 +1,8 @@
 package com.leetcode.array.easy;
 
-public class Richest_Customer_Wealth_1672 {
+public class A1672_Richest_Customer_Wealth {
     public static void main(String[] args) {
-        Richest_Customer_Wealth_1672 obj=new Richest_Customer_Wealth_1672();
+        A1672_Richest_Customer_Wealth obj=new A1672_Richest_Customer_Wealth();
         int[] arr=new int[]{2,5,1,3,4,7};
         System.out.println();
     }

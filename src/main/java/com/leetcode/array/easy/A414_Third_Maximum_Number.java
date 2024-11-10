@@ -1,8 +1,8 @@
 package com.leetcode.array.easy;
 
-public class Third_Maximum_Number_414 {
+public class A414_Third_Maximum_Number {
     public static void main(String[] args) {
-        Third_Maximum_Number_414 obj = new Third_Maximum_Number_414();
+        A414_Third_Maximum_Number obj = new A414_Third_Maximum_Number();
         int[] arr = new int[]{2,2,3,1};
         System.out.println(obj.thirdMax(arr));
     }

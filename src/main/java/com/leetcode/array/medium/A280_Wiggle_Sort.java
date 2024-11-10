@@ -1,9 +1,9 @@
 package com.leetcode.array.medium;
 
 
-public class Wiggle_Sort_280 {
+public class A280_Wiggle_Sort {
     public static void main(String[] args) {
-        Wiggle_Sort_280 obj = new Wiggle_Sort_280();
+        A280_Wiggle_Sort obj = new A280_Wiggle_Sort();
         int[] arr=new int[] {6,6,5,6,3,8};
         obj.wiggleSort(arr);
     }

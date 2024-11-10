@@ -2,9 +2,9 @@ package com.leetcode.array.easy;
 
 import java.util.Arrays;
 
-public class Plus_One_66 {
+public class A66_Plus_One {
     public static void main(String[] args) {
-        Plus_One_66 obj=new Plus_One_66();
+        A66_Plus_One obj=new A66_Plus_One();
         int[] arr=new int[]{9};
         System.out.println(Arrays.toString(obj.plusOne(arr)));
     }
