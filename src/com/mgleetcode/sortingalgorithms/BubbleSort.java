@@ -1,10 +1,11 @@
 package com.mgleetcode.sortingalgorithms;
 
 import java.util.Arrays;
+
 public class BubbleSort {
     public static void main(String[] args) {
         BubbleSort obj = new BubbleSort();
-        int[] arr=new int[]{4,9,1,5,2};
+        int[] arr = new int[]{4, 9, 1, 5, 2};
         System.out.println(Arrays.toString(obj.bubbleSort(arr)));
     }
 
