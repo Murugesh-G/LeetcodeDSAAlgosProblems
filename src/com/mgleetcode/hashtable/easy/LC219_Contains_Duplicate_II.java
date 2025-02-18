@@ -1,6 +1,4 @@
-package com.mgleetcode.hashing.easy;
-
-import com.mgleetcode.Main;
+package com.mgleetcode.hashtable.easy;
 
 import java.util.HashSet;
 import java.util.Set;
