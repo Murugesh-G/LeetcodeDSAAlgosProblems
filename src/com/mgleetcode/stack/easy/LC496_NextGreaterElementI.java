@@ -10,9 +10,9 @@ public class LC496_NextGreaterElementI {
             System.out.print(n+" ");
         }
     }
-
+//ToDo
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-
+          return new int[]{};
     }
 
 }
