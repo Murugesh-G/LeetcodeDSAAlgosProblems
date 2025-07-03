@@ -1,6 +1,4 @@
-package com.mgleetcode.binarysearchtree.easy;
-
-import com.mgleetcode.Main;
+package com.mgleetcode.binarytree.easy;
 
 public class LC530_MinimumAbsoluteDifferenceinBST {
     int min_diff = Integer.MAX_VALUE;
