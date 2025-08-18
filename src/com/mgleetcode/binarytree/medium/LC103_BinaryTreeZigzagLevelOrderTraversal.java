@@ -1,6 +1,6 @@
 package com.mgleetcode.binarytree.medium;
 
-import com.mgleetcode.binarytree.easy.TreeNode;
+import com.mgleetcode.util.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,5 +1,7 @@
 package com.mgleetcode.binarytree.easy;
 
+import com.mgleetcode.util.TreeNode;
+
 public class LC222_CountCompleteTreeNodes {
     public static void main(String[] args) {
 

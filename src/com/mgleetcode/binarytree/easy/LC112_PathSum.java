@@ -1,5 +1,7 @@
 package com.mgleetcode.binarytree.easy;
 
+import com.mgleetcode.util.TreeNode;
+
 /*
 TC O(n)
 SC O(n)

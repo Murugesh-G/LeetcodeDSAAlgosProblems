@@ -1,5 +1,7 @@
 package com.mgleetcode.binarytree.easy;
 
+import com.mgleetcode.util.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
