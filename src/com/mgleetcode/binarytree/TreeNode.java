@@ -11,5 +11,5 @@ import lombok.Setter;
 public class TreeNode {
     public TreeNode right;
     public TreeNode left;
-    int value;
+    public int val;
 }
