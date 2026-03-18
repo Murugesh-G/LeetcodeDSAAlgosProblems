@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/*
+TC O(NlogN)
+SC O(N)
+*/
 public class LC300_Longest_Increasing_Subsequence {
 
     public static void main(String[] args) {
@@ -13,22 +17,22 @@ public class LC300_Longest_Increasing_Subsequence {
     }
 
     public int lengthOfLIS(int[] nums) {
-        List<Integer> dp = new ArrayList<>();
-        dp.add(nums[0]);
+        int n = nums.length;
 
-        int LIS = 1;
-        for (int i = 1; i < nums.length; i++) {
-            if (dp.get(dp.size() - 1) < nums[i]) {
-                dp.add(nums[i]);
-                LIS++;
-                continue;
+        List<Integer> temp = new ArrayList<>();
+        temp.add(nums[0]);
+
+        for (int i = 1; i < n; i++) {
+            if (nums[i] > temp.get(temp.size() - 1)) {
+                temp.add(nums[i]);
+            } else {
+                int idx = Collections.binarySearch(temp, nums[i]);
+                if (idx < 0)
+                    idx = -(idx + 1);
+
+                temp.set(idx, nums[i]);
             }
-
-            int idx = Collections.binarySearch(dp, nums[i]);
-            if (idx < 0) idx = -idx - 1;
-            dp.set(idx, nums[i]);
         }
-
-        return LIS;
+        return temp.size();
     }
 }
